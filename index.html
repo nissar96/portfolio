@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive PortFolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="ext.js" language="javascript"></script>
+
+    <script src="jquery.js" language="javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Creating Menu Tabs & logo at Top-->
+    <header>
+        <a href="#" class="logo">PortFolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href= "#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
+            <li><a href="#research" onclick="toggleMenu();">Research</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+        
+    </header>
+    <section class="banner" id="home">
+        <div class="w51">
+            <img src = "images/MyPhoto_test.png" alt="" class="proPic1">
+        </div>
+        <div class="textBx">
+            <h2>Hello, I'm<br> <span>Nissar Ahmed Pinjari</span></h2>
+            <h3>I'm a Computer Science Graduate Student at Northeastern University, Boston, MA.</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class = "heading">
+            <p>Get to Know me</p>
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src = "images/MyPhoto.jpg" alt="" class="proPic">
+            </div>
+            <div class ="contentBx w50">
+                <h3>Who am i ? </h3>
+                <h2>I'm <b> Nissar Ahmed Pinjari <b>, a Computer Science Graduate Student at Northeastern University</h2>
+                <p> “COMPUTE IS ALL YOU NEED” </p>  <br>
+                <p>I choose potential and tough paths yet take calculated risks while doing the things I am passionate about. Having trained on Big Data Technologies in Infosys, Mysore, I have gained 1.5 years of work experience as a Software Development Engineer(Specialist Programmer) in Infosys. I was part of a NLP Research team which built Reading Comprehension Platform for internal use of Infosys employees by using state of the art recent advances in NLP and Deep Learning using TensorFlow. we Implemented and compared the performances of various algorithms such as Bert, RoBERTa, DistilBert and XLNet and optimized for our use cases considering business objectives. We also used Flask-RESTPlus for building the front end of the platform and utilized Docker for containerization.</p>
+                <br>
+                <p> Apart from this, I have a great interest on building end to end full stack web applications by solving a real world problems using MERN Stack. I did projects by leveraging these on demand latest technologies. Thus, Having the ability of handling projects from diverse technologies, it showcases my initiative and an ability to work independently in a professional setting, deliver efficient products on time.
+                </p> <br>
+                <p>I stood in top 100 out of 50000 students who participated in hackwithinfy hackathon organized by infosys. I went till regional levels of ACM ICPC coding competition. Our Team reached till final round of Smart India Hackathon which was world's largest hackathon conducted by Government of India. Thus, this shows my enthusiasm on coding by participating in national and international hackathons. </p>
+                <p>As i was an organizing head of technical club in my under graduation, i learnt and exercised the leadership skills by organizing nation wide technical fests. </p>
+                <br>
+                <p>At present, I am pursuing my Master of Science in Computer Science course at the Khoury College of Computer Sciences, Northeastern University, Boston.I am seeking a fulltime co-op/internship opportunity for Jan-Aug 2022. If you feel that my background is a right fit for your organization’s needs, do reach out to me at pinjari.n@northeastern.edu.</p>
+                <br>
+                <div class="heading bottom">
+                    <a href="images/Nissar_Ahmed_Pinjari.pdf" target="_blank" class="btn">Download CV</a>
+                    <div class="bt">
+                        <b>Name :</b> Nissar Ahmed Pinjari<br>
+                    </div>
+                    <div class="bt">
+                        <b>Email : </b> pinjari.n@northeastern.edu<br>
+                        <b>Location : </b>Boston, Massachusetts
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+
+    </section>
+    <!-- Creating Projects Layout-->
+    <section class="projects" id="projects">
+        <div class="heading white">
+            <h2>My Projects</h2>
+            <p>Projects are Listed below</p>
+        </div>
+        <div class = "content">
+            <div class="projectsBx">
+                <i class="fa fa-folder-o fa-4x"></i>
+                <h3>Machine Translation</h3>
+                <p>Extremely Low Resource Neural Machine Translation from Sanskrit to English </p>
+                  
+            </div>
+            <div class="projectsBx">
+                <i class="fa fa-folder-o fa-4x"></i>
+                    <h3>Taxi Demand Prediction</h3>
+                    <p>predict the number of pickups in the given location for a 10 minute interval in NYC</p>
+              
+            </div>
+            <div class="projectsBx">
+                <i class="fa fa-folder-o fa-4x"></i>
+                <h3>Personalised Cancer Diagnosis</h3>
+                <p>Research Paper on “Comparative Analysis of Genomic Personalized Cancer Diagnosis by Machine Learning Approaches ROC Curve”</p>
+                  
+            </div>
+            <div class="projectsBx">
+                <i class="fa fa-folder-o fa-4x"></i>
+                <h3>NU Learns</h3>
+                <p>Highly scalable cloud based full stack learning platform </p>
+            </div>
+            <div class="projectsBx">
+                <i class="fa fa-folder-o fa-4x"></i>
+                <h3>E-Commerce Website</h3>
+                <p >A complete E-Commerce website with 8 way filtering/searching, product rating, multiple payment gateways and invoice generation. </p>
+                
+                   
+            </div>
+            <div class="projectsBx">
+                <i class="fa fa-folder-o fa-4x"></i>
+                <h3>Issue Tracker</h3>
+                <p>A Full-stack web application using the MERN stack that can be used to track issue lifecycle</p>
+            </div>
+        </div>
+    </section>
+    <section class="research" id="research">
+        <div class="heading">
+            <h2> My Research Publication</h2>
+            <p>Personalised Cancer Diagnosis</p>
+        </div>
+        <div class="content" >
+            <div class="researchBx">
+                <a href="https://rdcu.be/cfBpx" target="_blank">
+                <img src="images/cancerpic.jpeg" alt="">
+                <p>Personalised Cancer Diagnosis</p>
+                </a>
+            </div>
+        </div>
+
+    </section>
+    <!-- creating contact layout-->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Please feel free to contact me</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <p>Actively seeking co-op and internship opportunities</p>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Roxbury Crossing, Boston, MA - 02120</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone no :</h3>
+                            <p>+1(617)794-6966</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email Address</h3>
+                            <p>pinjari.n@northeastern.edu</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Social Connect</h3>
+                    <div class="boxSocial">
+                        <div class="icon">
+                            <a href="https://www.facebook.com/BADSHAHNISSAR/" target="_blank">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                        </div>
+                        
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/in/nissar-ahmed-p-173599119/" target="_blank">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.instagram.com/nissar_pinku/" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name" name="">
+                    <input type="email" placeholder="Email" name="">
+                    <textarea name="" rows="6" id="" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" name="">
+                </form>
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>
